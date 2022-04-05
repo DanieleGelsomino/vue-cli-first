@@ -1,12 +1,13 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div class="Hero">
+   <img src="https://i.stack.imgur.com/9E9Ud.png" alt="jumbotron">
+   
   </div>
 </template>
 
 <script>
 export default {
-  name: 'mainTitle',
+  name: 'HeroJumbo',
   props: {
     msg: String
   }
@@ -15,5 +16,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+img{
+  width: 100%;
+  height: 450px;
+}
 </style>
